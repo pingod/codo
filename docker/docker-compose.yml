@@ -1,0 +1,6 @@
+codo:
+  restart: unless-stopped
+  image:  registry.cn-hangzhou.aliyuncs.com/sourcegarden/opendevops-frontend:alpine-0.3.0
+  ports:
+    - "80:80"
+    - "443:443"
